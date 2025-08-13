@@ -1,0 +1,9 @@
+kubectl config get-contexts 
+kubectl cluster-info
+kubectl get nodes
+kubectl apply -f k8s-deployment.yaml
+kubectl get deployments
+kubectl get pods
+kubectl get services
+kubectl port-forward svc/devops-lab-service 3001:3000
+kubectl delete -f deployment.yaml
